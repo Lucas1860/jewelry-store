@@ -187,4 +187,7 @@ input::placeholder {
     .box .square:nth-child(3) {
         display: none;
     }
+    section{
+        padding-bottom: 50px;
+    }
 }
