@@ -55,7 +55,7 @@ let products = [
 
 function openn(num){
     if (num === 1)
-        window.open("page/page1.html", "_blank");
+        window.open("page1.html", "_blank");
     else if (num === 2)
         window.open("page/page2.html", "_blank");
     else if (num === 3)
