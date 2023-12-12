@@ -79,9 +79,7 @@
     gap: 15px;
 }
 
-.box .basic-info .rate {
-    color: var(--yellow-color);
-}
+
 
 .box .basic-info span {
     font-weight: 800;
