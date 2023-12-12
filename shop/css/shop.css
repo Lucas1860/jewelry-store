@@ -148,9 +148,13 @@ header h1{
         justify-content: space-around;
     }
     .container{
-        width: 500px;
+        width: 400px;
     }
-
+   
+   .active .card{
+        height: 100%; 
+    }
+   
     header{
         grid-template-columns: 400px 50px;
         margin-top: 20px;
