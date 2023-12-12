@@ -55,17 +55,17 @@ let products = [
 
 function openn(num){
     if (num === 1)
-        window.open("shop/page/page1.html", "_blank");
+        window.open("page/page1.html", "_blank");
     else if (num === 2)
-        window.open("file:///C:/Users/avaki/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/page2.html", "_blank");
+        window.open("page/page2.html", "_blank");
     else if (num === 3)
-        window.open("file:///C:/Users/avaki/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/page3.html", "_blank");
+        window.open("page/page3.html", "_blank");
     else if (num === 4)
-        window.open("file:///C:/Users/avaki/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/page4.html", "_blank");
+        window.open("page/page4.html", "_blank");
     else if (num === 5)
-        window.open("file:///C:/Users/avaki/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/page5.html", "_blank");
+        window.open("page/page5.html", "_blank");
     else if (num === 6)
-        window.open("file:///C:/Users/avaki/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/page6.html", "_blank");
+        window.open("page/page6.html", "_blank");
 }
 
 let listCards  = [];
