@@ -40,13 +40,13 @@ let products = [
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
+        name: 'Подвеска «Кои на волне»',
         image: '5.0.jpg',
         price: 22000
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
+        name: 'Подвеска «Лилия»',
         image: '6.0.jpg',
         price: 12000
     }
