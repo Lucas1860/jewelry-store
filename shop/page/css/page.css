@@ -86,20 +86,12 @@
     font-size: 25px;
 }
 
-.box .basic-info .options a {
-    color: white;
-    background-color: var(--secondary-color);
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 12px;
-    border-radius: 5px;
-}
 
-.box .basic-info .options a:hover {
-    background-color: var(--tertiary-color);
-}
+
+
+
+
+
 
 .box .description {
     grid-area: description;
@@ -114,39 +106,10 @@
     line-height: 1.5;
 }
 
-.box .description .features {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: var(--gray-color);
-}
 
-.box .description .features i {
-    margin-right: 5px;
-}
 
-.box .description .features .fa-circle-check {
-    color: var(--tertiary-color);
-}
 
-.box .description .features .fa-circle-xmark {
-    color: var(--yellow-color);
-}
 
-.box .description .social {
-    list-style: none;
-    display: flex;
-}
-
-.box .description .social a {
-    margin-right: 15px;
-    color: var(--gray-color);
-}
-
-.box .description .social a:hover {
-    color: var(--secondary-color);
-}
 
 @media (max-width: 991px) {
     .box {
@@ -165,11 +128,8 @@
         position: absolute;
         align-self: flex-end;
     }
-    .box .basic-info .options {
-        position: absolute;
-        align-self: flex-end;
-        margin-top: 40px;
-    }
+
+    
 }
 
 @media (max-width: 768px) {
