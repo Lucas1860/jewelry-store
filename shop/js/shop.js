@@ -16,25 +16,25 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
+        name: 'Подвеска «Медуза»',
         image: '1.0.jpg',
         price: 18000
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
+        name: 'Подвеска «Пагода»',
         image: '2.0.jpg',
         price: 15000
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
+        name: 'Подвеска «Инь-Ян»',
         image: '3.0.jpg',
         price: 19800
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
+        name: 'Подвеска «Масверк»',
         image: '4.0.jpg',
         price: 16000
     },
