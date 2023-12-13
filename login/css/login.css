@@ -247,7 +247,7 @@ nav li:first-child{
 
 
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     .container{
         width: 300px;
     }
@@ -257,4 +257,20 @@ nav li:first-child{
     section{
         padding-bottom: 50px;
     }
+
+    .sidebar{
+        width: 100%;
+    }
 }
+
+
+@media (max-width:800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+
