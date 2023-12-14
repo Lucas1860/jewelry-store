@@ -16,6 +16,7 @@ header{
 header .shopping{
     position: relative;
     text-align: right;
+    z-index: 2;
 }
 header .shopping img{
     width: 40px;
