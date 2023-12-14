@@ -1,9 +1,7 @@
 body{
-   /* background-color: #aaa;/*#E3E7E8   #716a67*/
-   /*background: linear-gradient(#808080,#aaa,#aaa,#808080);*/
-    background-image: url("fon4.jpg");
-    
-    font-family: system-ui;
+   margin: 0;
+   background-image: url("fon4.jpg");
+   font-family: system-ui;
 }
 .container{
     width: 1000px;
