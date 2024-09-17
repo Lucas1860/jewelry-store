@@ -86,7 +86,7 @@ nav li:first-child{
   
 .footer {
     margin: 0;
-    margin-top: 95vh;
+    margin-top: 50vh;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -96,31 +96,17 @@ nav li:first-child{
     align-content: end;
     min-height: 70vh;
     width: 100%;
-
+    justify-items: end;
 }
 
 footer {
     position: relative;
-    width: fit-content;
+    width: 100%;
     height: auto;
     padding: 50px 50px;
     padding-right: 0;
     background:   #aaaaaa6b;
     backdrop-filter: blur(10px);
-}
-
-footer .container_1 {
-    width: 1469px;
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 2fr;
-    grid-gap: 20px;
-}
-
-footer .container_1 .sec h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
 }
 
 footer .container_1 .sec h2::before {
@@ -133,8 +119,26 @@ footer .container_1 .sec h2::before {
     background: #ffcb3b;
 }
 
-footer .container_1 .sec p {
+footer .container_1 {
+    width: 90%;/*1469*/
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 7vw;
+    justify-content: center;
+}
+
+footer .container_1 .sec h2{
+    position: relative;
     color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+
+footer .container_1 .sec p {
+    color: #c7c7c7;
 }
 .sci {
     margin-top: 20px;
@@ -269,7 +273,7 @@ footer .container_1 .sec p {
 }
 
 .copyrightText {
-  width: 1469px;
+  width: 100%;
     background: #15100cce;
     backdrop-filter: blur(10px);
     padding: 8px 50px;
@@ -280,8 +284,17 @@ footer .container_1 .sec p {
 
 
 
-
-
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 95 vh;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+    pointer-events: none;
+}
 
 
 
@@ -296,11 +309,12 @@ footer .container_1 .sec p {
 
     footer 
     {
-        padding: 40px;
+        padding: 0px;/*40*/
     }
     footer .container_1 
     {
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
     .copyrightText
     {
@@ -317,12 +331,14 @@ footer .container_1 .sec p {
 
     footer .container_1 
     {
-        grid-template-columns: repeat(1, 353px);
-        width: 353px;
+        grid-template-columns: 1fr;
+        width: 90%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
     footer 
     {
-        padding: 25px;
+        padding: 0px;/*25*/
     }
 
 .footer .copyrightText
@@ -334,5 +350,9 @@ footer .container_1 .sec p {
   width: 300px;
   height: fit-content;
 
+}
+.footer{
+    margin-top: 88vh;
+    justify-items: end;
 }
 }
