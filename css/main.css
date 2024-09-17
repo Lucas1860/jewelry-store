@@ -76,12 +76,6 @@ nav li:first-child{
 
 
 
-
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
   
 .footer {
@@ -225,24 +219,6 @@ footer .container_1 .sec p {
 
 
 
-.quicklinks {
-    position: relative;
-}
-
-.quicklinks li {
-    list-style: none;
-}
-
-.quicklinks li a {
-    color: #f7f7f7;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
-}
-
-.quicklinks li a:hover {
-    color: #e2b501;
-}
 
 .info {
     position: relative;
